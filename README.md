@@ -81,7 +81,7 @@ RBAC is a security model that assigns users to specific roles, and each role has
 ### Steps to Run:
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/job-portal.git
+   git clone https://github.com/IamProgrammer24/Job_portal_application.git
    cd job-portal
    ```
 2. **Install dependenices for : Backend**:
@@ -156,9 +156,8 @@ The Job Portal exposes the following API endpoints:
 
 * **GET /api/v1/application/apply/{id}**: Apply to a job.
 * **GET /api/v1/application/get**: See applied jobs.
-
+----
 #### (Employer only)
-----------
 * **GET /api/v1/application/{id}/applicants**: recruiter can see applide users information.
 * **GET /api/v1/application/status/{id}/update**: update the status of a job application.
 
