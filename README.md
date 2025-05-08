@@ -9,6 +9,8 @@ The Job Portal Application is an online platform designed to help both job seeke
 - **Job Listings**: Browse through a wide range of job listings fetched from MongoDB.
 - **Application Management**: Job seekers can manage their job applications, and employers can view and manage received applications.
 - **Role Based Access Control(RBAC)**: Securing routes and resources based on user roles and permissions.
+- **personalized job recommendations**: Recommend job opportunities based on the interactions and preferences of other job seekers with similar skill sets
+- **Automated job Alerts**: Real-time job alerts triggered when new opportunities requiring similar skill sets are posted
 
 ## Technology Used
 
@@ -20,7 +22,7 @@ The Job Portal Application is an online platform designed to help both job seeke
 
 - **Authentication**:
   - JWT (JSON Web Tokens) for secure authentication,Bcrypt(for password hash)
-
+    
 - **Other Tools**:
   - Postman (for API testing)
   - Git/GitHub (for version control)
